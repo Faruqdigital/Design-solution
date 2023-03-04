@@ -1,119 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="images/download.png" type="image/x-icon">
-    <title>Single-page design portfolio</title>
-  </head>
-  <body>
 
-    <section class="container">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <!-- navigation -->
-      <nav>
-        <a href="#"><img src="images/logo.svg" alt="" /></a>
-        <button>Free Consultation</button>
-      </nav>
-
-      <!-- header -->
-      <header>
-
-        <div class="top">
-          <h1>Design solutions made easy</h1>
-          <p>
-            With over ten years of experience in various design disciplines, I’m
-            your one-stop shop for your design needs.
-          </p>
-        </div>
-
-        <!-- hero-part -->
-        <div class="hero">
-          <div>
-            <h4>Graphic Desigh</h4>
-          </div>
-          <div><h4>UI/UX</h4></div>
-          <div><h4>Apps</h4></div>
-          <div><h4>Photography</h4></div>
-          <div><h4>Illustrations</h4></div>
-          <div><h4>Motion Graphics</h4></div>
-        </div>
-
-        <article>
-          <img src="images/hero-img.png" alt="Amy" />
-          <div>
-            <h2>I’m Amy, and I’d love to work on your next project</h2>
-            <p>
-              I love working with others to create beautiful design solutions.
-              I’ve designed everything from brand illustrations to complete
-              mobile apps. I’m also handy with a camera!
-            </p>
-            <button>Free Consultation</button>
-          </div>
-        </article>
-
-      </header>
-
-    </section>
-
-    <!-- main-section -->
-    <main>
-
-      <h3>My Work</h3>
-
-      <div class="gallery">
-        <div class="arrow"><img src="images/44473.png" alt="" /></div>
-        <div class="frame">
-          <div class="pictures">
-            <img src="images/image-slide-1.jpg" alt="1" />
-            <img src="images/image-slide-2.jpg" alt="2" />
-            <img src="images/image-slide-3.jpg" alt="3" />
-            <img src="images/image-slide-4.jpg" alt="4" />
-            <img src="images/image-slide-5.jpg" alt="5" />
-          </div>
-        </div>
-
-        <div class="arrow">
-          <img src="images/271228.png" alt="" />
-        </div>
-        
+<body>
+<!-- header -->
+  <header>
+    <nav>
+      <div class="nav-container">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <button class="consult-btn black">Free Consultation</button>
       </div>
-
-      <div class="dots">
-        <button></button><button></button><button></button><button></button
-        ><button></button>
-      </div>
-
-    </main>
-
-    <!-- footer-section -->
-
-    <div class="container">
-
-      <footer>
-
-        <div class="footer-top">
-          <div class="footer-top-left">
-            <h2>Book a call with me</h2>
-            <p>
-              I’d love to have a chat to see how I can help you. The best first
-              step is for us to discuss your project during a free consultation.
-              Then we can move forward from there.
-            </p>
-          </div>
-          <button>Free Consultation</button>
-        </div>
-
-        <nav>
-          <a href="#"><img src="images/logo.svg" alt="" /></a>
-          <button>Free Consultation</button>
-        </nav>
-        
-      </footer>
-
+    </nav>
+  </header>
+<!-- main -->
+ <main>
+  <!-- title -->
+  <section id="design-solutions">
+    <div class="title-container">
+      <h1 class="title">Design solutions made easy</h1>
+      <p class="subtitle">
+        With over ten years of experience in various design disciplines, I’m
+        the one-stop shop for your design needs.
+      </p>
     </div>
+    <div class="design-container">
+      <div class="graphic-design square">
+        <img src="./images/pattern-graphic-design.svg" alt="graphic design pattern" class="pattern" />
+        <p class="design-text">Graphic design</p>
+      </div>
+      <div class="ui-ux square">
+        <img src="./images/pattern-ui-ux.svg" alt="design pattern" class="pattern" />
+        <p class="design-text">UI/UX</p>
+      </div>
+      <div class="apps square">
+        <img src="./images/pattern-apps.svg" alt="design pattern" class="pattern" />
+        <p class="design-text">Apps</p>
+      </div>
+      <div class="illustrations square">
+        <img src="./images/pattern-illustrations.svg" alt="design pattern" class="pattern" />
+        <p class="design-text">Illustrations</p>
+      </div>
+      <div class="photography square">
+        <img src="./images/pattern-photography.svg" alt="design pattern" class="pattern" />
+        <p class="design-text">Photography</p>
+      </div>
+      <div class="motion-graphics square">
+        <img src="./images/pattern-motion-graphics.svg" alt="design pattern" class="pattern" />
+        <p class="design-text">Motion Graphics</p>
+      </div>
+    </div>
+  </section>
+<!-- hero section -->
+  <section id="amy">
+    <div class="amy-container">
+      <img src="./images/hero-img.png" alt="Amy" class="amy-img" />
+      <div class="column-container">
+        <h2>I’m Amy, and I’d love to work on your next project</h2>
+        <p class="subtitle">
+          I love working with others to create beautiful design solutions.
+          I’ve designed everything from brand illustrations to complete mobile
+          apps. I’m also handy with a camera!
+        </p>
+        <button class="consult-btn orange">Free Consultation</button>
+      </div>
+    </div>
+  </section>
+<!-- work section -->
+  <section id="my-work">
+    <h3>My work</h3>
+    <img src="./images/image-slide-1.jpg" alt="art design" id="slide-img" />
+    <div class="arrow-container">
+      <div id="left-arrow" class="left-arrow"></div>
+      <div id="right-arrow" class="right-arrow"></div>
+    </div>
+  </section>
+<!-- booking section -->
+  <section id="booking">
+    <div class="booking-container">
+      <div class="text-container">
+        <h2>Book a call with me</h2>
+        <p>
+          I’d love to have a chat to see how I can help you. The best first
+          step is for us to discuss your project during a free consultation.
+          Then we can move forward from there.
+        </p>
+      </div>
+      <button class="consult-btn orange">Free Consultation</button>
+    </div>
+  </section>
 
-  </body>
+ </main>
+
+<!-- footer -->
+  <footer>
+    <nav>
+      <div class="nav-container">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <button class="consult-btn black">Free Consultation</button>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+
 </html>
